@@ -60,7 +60,7 @@ def build_indicators(get) -> list[sg.Indicator]:
             out.append(fn())
         except Exception as e:
             traceback.print_exc()
-            out.append(sg.Indicator(id_, market, name, error=type(e).__name__))
+            out.append(sg.Indicator(id_, market, name, error=str(e) if isinstance(e, RuntimeError) else type(e).__name__))
     return out
 
 

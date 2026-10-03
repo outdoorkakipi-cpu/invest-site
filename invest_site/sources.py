@@ -34,6 +34,9 @@ def _get(url: str, timeout: int = TIMEOUT, **kw) -> requests.Response:
     raise last  # type: ignore[misc]
 
 
+_fred_csv_down = False
+
+
 def fred(series_id: str) -> pd.Series:
     """FRED から取得する。FRED_API_KEY があれば公式API、なければ公開CSV（キー不要）。"""
     start = (pd.Timestamp.today() - pd.Timedelta(days=365 * 3)).strftime("%Y-%m-%d")
@@ -46,11 +49,19 @@ def fred(series_id: str) -> pd.Series:
         obs = r.json()["observations"]
         df = pd.DataFrame({"date": [o["date"] for o in obs], "value": [o["value"] for o in obs]})
     else:
-        r = _get(
-            "https://fred.stlouisfed.org/graph/fredgraph.csv",
-            params={"id": series_id, "cosd": start},
-            timeout=60,
-        )
+        # GitHub の実行環境からは公開CSVが応答しないことが多い。1度失敗したら残りは試さない
+        global _fred_csv_down
+        if _fred_csv_down:
+            raise RuntimeError("FRED_API_KEY 未設定")
+        try:
+            r = requests.get(
+                "https://fred.stlouisfed.org/graph/fredgraph.csv",
+                params={"id": series_id, "cosd": start}, headers=UA, timeout=20,
+            )
+            r.raise_for_status()
+        except requests.RequestException:
+            _fred_csv_down = True
+            raise
         df = pd.read_csv(io.StringIO(r.text))
         df.columns = ["date", "value"]
     df["date"] = pd.to_datetime(df["date"])
