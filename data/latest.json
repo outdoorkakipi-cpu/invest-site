@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-04T00:00:51.478756+09:00",
+ "generated": "2026-10-04T00:34:50.023241+09:00",
  "indicators": [
   {
    "id": "hy",
@@ -19,7 +19,7 @@
    "value": "—",
    "summary": "",
    "asof": "",
-   "error": "ReadTimeout"
+   "error": "FRED_API_KEY 未設定"
   },
   {
    "id": "curve",
@@ -29,7 +29,7 @@
    "value": "—",
    "summary": "",
    "asof": "",
-   "error": "ReadTimeout"
+   "error": "FRED_API_KEY 未設定"
   },
   {
    "id": "claims",
@@ -39,7 +39,7 @@
    "value": "—",
    "summary": "",
    "asof": "",
-   "error": "ReadTimeout"
+   "error": "FRED_API_KEY 未設定"
   },
   {
    "id": "nfci",
@@ -49,7 +49,7 @@
    "value": "—",
    "summary": "",
    "asof": "",
-   "error": "ReadTimeout"
+   "error": "FRED_API_KEY 未設定"
   },
   {
    "id": "vix",
@@ -59,7 +59,7 @@
    "value": "—",
    "summary": "",
    "asof": "",
-   "error": "ReadTimeout"
+   "error": "FRED_API_KEY 未設定"
   },
   {
    "id": "usd",
@@ -69,7 +69,7 @@
    "value": "—",
    "summary": "",
    "asof": "",
-   "error": "ReadTimeout"
+   "error": "FRED_API_KEY 未設定"
   },
   {
    "id": "spx",
@@ -136,8 +136,8 @@
    "market": "crypto",
    "name": "BTC / 200週移動平均",
    "status": "neutral",
-   "value": "1.28倍（$84,831）",
-   "summary": "200週線 $66,510",
+   "value": "1.27倍（$84,772）",
+   "summary": "200週線 $66,509",
    "asof": "2026-10-03",
    "error": null
   },
