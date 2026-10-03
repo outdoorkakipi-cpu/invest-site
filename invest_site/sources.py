@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import csv
 import io
+import os
 import time
 import xml.etree.ElementTree as ET
 from concurrent.futures import ThreadPoolExecutor
@@ -20,11 +21,11 @@ UA = {"User-Agent": "Mozilla/5.0 (invest-site; personal dashboard)"}
 TIMEOUT = 30
 
 
-def _get(url: str, **kw) -> requests.Response:
+def _get(url: str, timeout: int = TIMEOUT, **kw) -> requests.Response:
     last = None
     for attempt in range(3):
         try:
-            r = requests.get(url, headers=UA, timeout=TIMEOUT, **kw)
+            r = requests.get(url, headers=UA, timeout=timeout, **kw)
             r.raise_for_status()
             return r
         except requests.RequestException as e:  # 一時的な失敗は少し待って再試行
@@ -34,12 +35,26 @@ def _get(url: str, **kw) -> requests.Response:
 
 
 def fred(series_id: str) -> pd.Series:
-    """FRED の公開CSV（APIキー不要）。欠損は '.' で表される。"""
-    r = _get("https://fred.stlouisfed.org/graph/fredgraph.csv", params={"id": series_id})
-    df = pd.read_csv(io.StringIO(r.text))
-    df.columns = ["date", "value"]
+    """FRED から取得する。FRED_API_KEY があれば公式API、なければ公開CSV（キー不要）。"""
+    start = (pd.Timestamp.today() - pd.Timedelta(days=365 * 3)).strftime("%Y-%m-%d")
+    key = os.environ.get("FRED_API_KEY")
+    if key:
+        r = _get(
+            "https://api.stlouisfed.org/fred/series/observations",
+            params={"series_id": series_id, "api_key": key, "file_type": "json", "observation_start": start},
+        )
+        obs = r.json()["observations"]
+        df = pd.DataFrame({"date": [o["date"] for o in obs], "value": [o["value"] for o in obs]})
+    else:
+        r = _get(
+            "https://fred.stlouisfed.org/graph/fredgraph.csv",
+            params={"id": series_id, "cosd": start},
+            timeout=60,
+        )
+        df = pd.read_csv(io.StringIO(r.text))
+        df.columns = ["date", "value"]
     df["date"] = pd.to_datetime(df["date"])
-    df["value"] = pd.to_numeric(df["value"], errors="coerce")
+    df["value"] = pd.to_numeric(df["value"], errors="coerce")  # 欠損は '.'
     s = df.dropna().set_index("date")["value"]
     s.name = series_id
     return s

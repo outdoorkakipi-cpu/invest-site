@@ -29,6 +29,8 @@ jobs:
       - run: pip install -r requirements.txt
       - run: python -m unittest discover -s tests
       - run: python -m invest_site.main
+        env:
+          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}  # 任意。未設定でも公開CSVで取得する
       - name: 履歴データを保存
         run: |
           git config user.name "github-actions[bot]"
