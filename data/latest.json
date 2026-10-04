@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-04T00:34:50.023241+09:00",
+ "generated": "2026-10-04T11:48:40.206416+09:00",
  "indicators": [
   {
    "id": "hy",
@@ -136,9 +136,9 @@
    "market": "crypto",
    "name": "BTC / 200週移動平均",
    "status": "neutral",
-   "value": "1.27倍（$84,772）",
+   "value": "1.27倍（$84,793）",
    "summary": "200週線 $66,509",
-   "asof": "2026-10-03",
+   "asof": "2026-10-04",
    "error": null
   },
   {
@@ -156,9 +156,9 @@
    "market": "crypto",
    "name": "Crypto Fear & Greed",
    "status": "neutral",
-   "value": "67",
+   "value": "65",
    "summary": "中立圏",
-   "asof": "2026-10-03",
+   "asof": "2026-10-04",
    "error": null
   },
   {
@@ -167,8 +167,8 @@
    "name": "ステーブルコイン総額",
    "status": "neutral",
    "value": "$312B",
-   "summary": "30日で+1.4%",
-   "asof": "2026-10-03",
+   "summary": "30日で+1.1%",
+   "asof": "2026-10-04",
    "error": null
   },
   {
@@ -176,9 +176,9 @@
    "market": "crypto",
    "name": "BTC 資金調達率（7日平均）",
    "status": "neutral",
-   "value": "0.0031%",
-   "summary": "平常（年率換算 約3%）",
-   "asof": "2026-10-03",
+   "value": "0.0038%",
+   "summary": "平常（年率換算 約4%）",
+   "asof": "2026-10-04",
    "error": null
   }
  ]
