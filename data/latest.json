@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-19T06:49:23.657886+09:00",
+ "generated": "2026-10-20T06:55:16.902153+09:00",
  "indicators": [
   {
    "id": "hy",
@@ -76,9 +76,9 @@
    "market": "us",
    "name": "S&P500",
    "status": "neutral",
-   "value": "7,659",
-   "summary": "200日線の上で推移（乖離+5.3%）",
-   "asof": "2026-10-16",
+   "value": "7,691",
+   "summary": "200日線の上で推移（乖離+5.7%）",
+   "asof": "2026-10-19",
    "error": null
   },
   {
@@ -86,9 +86,9 @@
    "market": "us",
    "name": "NASDAQ100",
    "status": "neutral",
-   "value": "29,188",
-   "summary": "200日線の上で推移（乖離+5.2%）",
-   "asof": "2026-10-16",
+   "value": "29,529",
+   "summary": "200日線の上で推移（乖離+6.4%）",
+   "asof": "2026-10-19",
    "error": null
   },
   {
@@ -96,9 +96,9 @@
    "market": "us",
    "name": "S&P500 200日線より上の銘柄割合",
    "status": "neutral",
-   "value": "52%",
+   "value": "51%",
    "summary": "中立圏",
-   "asof": "2026-10-16",
+   "asof": "2026-10-19",
    "error": null
   },
   {
@@ -116,9 +116,9 @@
    "market": "jp",
    "name": "TOPIX（ETF 1306）",
    "status": "neutral",
-   "value": "428",
-   "summary": "200日線の上で推移（乖離+6.5%）",
-   "asof": "2026-10-16",
+   "value": "427",
+   "summary": "200日線の上で推移（乖離+6.1%）",
+   "asof": "2026-10-19",
    "error": null
   },
   {
@@ -126,9 +126,9 @@
    "market": "jp",
    "name": "ドル円",
    "status": "neutral",
-   "value": "157.91円",
-   "summary": "13週で-2.8%",
-   "asof": "2026-10-18",
+   "value": "158.44円",
+   "summary": "13週で-2.5%",
+   "asof": "2026-10-19",
    "error": null
   },
   {
@@ -136,9 +136,9 @@
    "market": "crypto",
    "name": "BTC / 200週移動平均",
    "status": "neutral",
-   "value": "1.21倍（$81,036）",
-   "summary": "200週線 $67,158",
-   "asof": "2026-10-18",
+   "value": "1.22倍（$81,906）",
+   "summary": "200週線 $67,165",
+   "asof": "2026-10-19",
    "error": null
   },
   {
@@ -146,9 +146,9 @@
    "market": "crypto",
    "name": "BTC MVRV",
    "status": "neutral",
-   "value": "1.51",
+   "value": "1.52",
    "summary": "中立圏（1〜3）",
-   "asof": "2026-10-17",
+   "asof": "2026-10-18",
    "error": null
   },
   {
@@ -156,9 +156,9 @@
    "market": "crypto",
    "name": "Crypto Fear & Greed",
    "status": "neutral",
-   "value": "53",
+   "value": "59",
    "summary": "中立圏",
-   "asof": "2026-10-18",
+   "asof": "2026-10-19",
    "error": null
   },
   {
@@ -167,8 +167,8 @@
    "name": "ステーブルコイン総額",
    "status": "neutral",
    "value": "$305B",
-   "summary": "30日で+0.5%",
-   "asof": "2026-10-18",
+   "summary": "30日で+0.4%",
+   "asof": "2026-10-19",
    "error": null
   },
   {
@@ -176,9 +176,9 @@
    "market": "crypto",
    "name": "BTC 資金調達率（7日平均）",
    "status": "neutral",
-   "value": "0.0046%",
-   "summary": "平常（年率換算 約5%）",
-   "asof": "2026-10-18",
+   "value": "0.0055%",
+   "summary": "平常（年率換算 約6%）",
+   "asof": "2026-10-19",
    "error": null
   }
  ]
