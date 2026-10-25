@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-25T06:51:27.681026+09:00",
+ "generated": "2026-10-26T06:50:51.962692+09:00",
  "indicators": [
   {
    "id": "hy",
@@ -126,9 +126,9 @@
    "market": "jp",
    "name": "ドル円",
    "status": "neutral",
-   "value": "156.81円",
-   "summary": "13週で-4.3%",
-   "asof": "2026-10-23",
+   "value": "157.02円",
+   "summary": "13週で-4.0%",
+   "asof": "2026-10-25",
    "error": null
   },
   {
@@ -136,9 +136,9 @@
    "market": "crypto",
    "name": "BTC / 200週移動平均",
    "status": "signal",
-   "value": "1.19倍（$80,259）",
+   "value": "1.19倍（$80,243）",
    "summary": "長期の割安圏",
-   "asof": "2026-10-24",
+   "asof": "2026-10-25",
    "error": null
   },
   {
@@ -146,9 +146,9 @@
    "market": "crypto",
    "name": "BTC MVRV",
    "status": "neutral",
-   "value": "1.50",
+   "value": "1.49",
    "summary": "中立圏（1〜3）",
-   "asof": "2026-10-23",
+   "asof": "2026-10-24",
    "error": null
   },
   {
@@ -156,9 +156,9 @@
    "market": "crypto",
    "name": "Crypto Fear & Greed",
    "status": "neutral",
-   "value": "51",
+   "value": "54",
    "summary": "中立圏",
-   "asof": "2026-10-24",
+   "asof": "2026-10-25",
    "error": null
   },
   {
@@ -167,8 +167,8 @@
    "name": "ステーブルコイン総額",
    "status": "neutral",
    "value": "$303B",
-   "summary": "30日で-0.5%",
-   "asof": "2026-10-24",
+   "summary": "30日で-1.0%",
+   "asof": "2026-10-25",
    "error": null
   },
   {
@@ -176,9 +176,9 @@
    "market": "crypto",
    "name": "BTC 資金調達率（7日平均）",
    "status": "neutral",
-   "value": "0.0060%",
+   "value": "0.0061%",
    "summary": "平常（年率換算 約7%）",
-   "asof": "2026-10-24",
+   "asof": "2026-10-25",
    "error": null
   }
  ]
