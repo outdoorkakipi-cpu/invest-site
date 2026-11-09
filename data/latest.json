@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-08T09:49:09.225398+09:00",
+ "generated": "2026-11-09T10:03:50.105903+09:00",
  "indicators": [
   {
    "id": "hy",
@@ -106,9 +106,9 @@
    "market": "jp",
    "name": "日経平均",
    "status": "caution",
-   "value": "57,435",
-   "summary": "200日線の下（乖離-7.3%）。中期は守り",
-   "asof": "2026-11-06",
+   "value": "58,530",
+   "summary": "200日線の下（乖離-5.6%）。中期は守り",
+   "asof": "2026-11-09",
    "error": null
   },
   {
@@ -116,9 +116,9 @@
    "market": "jp",
    "name": "TOPIX（ETF 1306）",
    "status": "caution",
-   "value": "389",
-   "summary": "200日線の下（乖離-4.3%）。中期は守り",
-   "asof": "2026-11-06",
+   "value": "401",
+   "summary": "200日線の下（乖離-1.4%）。中期は守り",
+   "asof": "2026-11-09",
    "error": null
   },
   {
@@ -126,9 +126,9 @@
    "market": "jp",
    "name": "ドル円",
    "status": "neutral",
-   "value": "158.43円",
-   "summary": "13週で+0.0%",
-   "asof": "2026-11-07",
+   "value": "158.33円",
+   "summary": "13週で-0.5%",
+   "asof": "2026-11-09",
    "error": null
   },
   {
@@ -136,9 +136,9 @@
    "market": "crypto",
    "name": "BTC / 200週移動平均",
    "status": "signal",
-   "value": "1.11倍（$75,657）",
+   "value": "1.11倍（$75,286）",
    "summary": "長期の割安圏",
-   "asof": "2026-11-08",
+   "asof": "2026-11-09",
    "error": null
   },
   {
@@ -146,9 +146,9 @@
    "market": "crypto",
    "name": "BTC MVRV",
    "status": "neutral",
-   "value": "1.41",
+   "value": "1.40",
    "summary": "中立圏（1〜3）",
-   "asof": "2026-11-06",
+   "asof": "2026-11-07",
    "error": null
   },
   {
@@ -156,9 +156,9 @@
    "market": "crypto",
    "name": "Crypto Fear & Greed",
    "status": "neutral",
-   "value": "28",
+   "value": "29",
    "summary": "中立圏",
-   "asof": "2026-11-08",
+   "asof": "2026-11-09",
    "error": null
   },
   {
@@ -166,9 +166,9 @@
    "market": "crypto",
    "name": "ステーブルコイン総額",
    "status": "caution",
-   "value": "$292B",
-   "summary": "30日で-4.9%。資金が流出している",
-   "asof": "2026-11-07",
+   "value": "$293B",
+   "summary": "30日で-4.4%。資金が流出している",
+   "asof": "2026-11-08",
    "error": null
   },
   {
@@ -176,9 +176,9 @@
    "market": "crypto",
    "name": "BTC 資金調達率（7日平均）",
    "status": "neutral",
-   "value": "0.0078%",
-   "summary": "平常（年率換算 約9%）",
-   "asof": "2026-11-08",
+   "value": "0.0061%",
+   "summary": "平常（年率換算 約7%）",
+   "asof": "2026-11-09",
    "error": null
   }
  ]
