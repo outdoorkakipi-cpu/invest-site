@@ -15,3 +15,4 @@ date,id,prev,status
 2026-11-04,n225,neutral,caution
 2026-11-06,ndx,neutral,caution
 2026-11-06,topix,neutral,caution
+2026-11-10,topix,caution,signal
