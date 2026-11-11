@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T12:41:19.039533+09:00",
+ "generated": "2026-11-11T10:21:01.937943+09:00",
  "indicators": [
   {
    "id": "hy",
@@ -76,9 +76,9 @@
    "market": "us",
    "name": "S&P500",
    "status": "neutral",
-   "value": "7,550",
-   "summary": "200日線の上で推移（乖離+3.0%）",
-   "asof": "2026-11-09",
+   "value": "7,521",
+   "summary": "200日線の上で推移（乖離+2.6%）",
+   "asof": "2026-11-10",
    "error": null
   },
   {
@@ -86,9 +86,9 @@
    "market": "us",
    "name": "NASDAQ100",
    "status": "caution",
-   "value": "27,908",
-   "summary": "200日線の下（乖離-0.3%）。中期は守り",
-   "asof": "2026-11-09",
+   "value": "27,741",
+   "summary": "200日線の下（乖離-0.9%）。中期は守り",
+   "asof": "2026-11-10",
    "error": null
   },
   {
@@ -106,9 +106,9 @@
    "market": "jp",
    "name": "日経平均",
    "status": "caution",
-   "value": "60,476",
-   "summary": "200日線の下（乖離-2.5%）。中期は守り",
-   "asof": "2026-11-10",
+   "value": "60,741",
+   "summary": "200日線の下（乖離-2.1%）。中期は守り",
+   "asof": "2026-11-11",
    "error": null
   },
   {
@@ -116,9 +116,9 @@
    "market": "jp",
    "name": "TOPIX（ETF 1306）",
    "status": "signal",
-   "value": "411",
-   "summary": "200日線を上抜け（乖離+1.0%）。中期上昇トレンド入りの候補",
-   "asof": "2026-11-10",
+   "value": "412",
+   "summary": "200日線を上抜け（乖離+1.4%）。中期上昇トレンド入りの候補",
+   "asof": "2026-11-11",
    "error": null
   },
   {
@@ -126,9 +126,9 @@
    "market": "jp",
    "name": "ドル円",
    "status": "neutral",
-   "value": "157.95円",
-   "summary": "13週で-0.8%",
-   "asof": "2026-11-10",
+   "value": "158.92円",
+   "summary": "13週で-0.3%",
+   "asof": "2026-11-11",
    "error": null
   },
   {
@@ -136,9 +136,9 @@
    "market": "crypto",
    "name": "BTC / 200週移動平均",
    "status": "signal",
-   "value": "1.09倍（$74,400）",
+   "value": "1.08倍（$73,419）",
    "summary": "長期の割安圏",
-   "asof": "2026-11-10",
+   "asof": "2026-11-11",
    "error": null
   },
   {
@@ -156,9 +156,9 @@
    "market": "crypto",
    "name": "Crypto Fear & Greed",
    "status": "neutral",
-   "value": "32",
+   "value": "29",
    "summary": "中立圏",
-   "asof": "2026-11-10",
+   "asof": "2026-11-11",
    "error": null
   },
   {
@@ -166,9 +166,9 @@
    "market": "crypto",
    "name": "ステーブルコイン総額",
    "status": "caution",
-   "value": "$292B",
-   "summary": "30日で-4.6%。資金が流出している",
-   "asof": "2026-11-10",
+   "value": "$291B",
+   "summary": "30日で-4.9%。資金が流出している",
+   "asof": "2026-11-11",
    "error": null
   },
   {
@@ -176,9 +176,9 @@
    "market": "crypto",
    "name": "BTC 資金調達率（7日平均）",
    "status": "neutral",
-   "value": "0.0059%",
-   "summary": "平常（年率換算 約6%）",
-   "asof": "2026-11-10",
+   "value": "0.0062%",
+   "summary": "平常（年率換算 約7%）",
+   "asof": "2026-11-11",
    "error": null
   }
  ]
