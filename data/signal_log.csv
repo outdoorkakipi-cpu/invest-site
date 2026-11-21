@@ -21,3 +21,4 @@ date,id,prev,status
 2026-11-14,ndx,signal,caution
 2026-11-17,topix,signal,caution
 2026-11-18,spx,neutral,caution
+2026-11-21,funding,neutral,watch
