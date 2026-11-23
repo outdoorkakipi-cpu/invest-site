@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22T10:28:13.183677+09:00",
+ "generated": "2026-11-23T10:52:37.745086+09:00",
  "indicators": [
   {
    "id": "hy",
@@ -126,9 +126,9 @@
    "market": "jp",
    "name": "ドル円",
    "status": "neutral",
-   "value": "159.71円",
-   "summary": "13週で+0.5%",
-   "asof": "2026-11-20",
+   "value": "158.91円",
+   "summary": "13週で-0.1%",
+   "asof": "2026-11-23",
    "error": null
   },
   {
@@ -136,9 +136,9 @@
    "market": "crypto",
    "name": "BTC / 200週移動平均",
    "status": "signal",
-   "value": "0.88倍（$60,003）",
+   "value": "0.89倍（$60,741）",
    "summary": "長期の割安圏",
-   "asof": "2026-11-22",
+   "asof": "2026-11-23",
    "error": null
   },
   {
@@ -146,9 +146,9 @@
    "market": "crypto",
    "name": "BTC MVRV",
    "status": "neutral",
-   "value": "1.10",
+   "value": "1.13",
    "summary": "中立圏（1〜3）",
-   "asof": "2026-11-20",
+   "asof": "2026-11-21",
    "error": null
   },
   {
@@ -158,7 +158,7 @@
    "status": "watch",
    "value": "11",
    "summary": "極度の恐怖。回復待ち",
-   "asof": "2026-11-22",
+   "asof": "2026-11-23",
    "error": null
   },
   {
@@ -166,19 +166,19 @@
    "market": "crypto",
    "name": "ステーブルコイン総額",
    "status": "caution",
-   "value": "$282B",
-   "summary": "30日で-6.2%。資金が流出している",
-   "asof": "2026-11-22",
+   "value": "$283B",
+   "summary": "30日で-6.0%。資金が流出している",
+   "asof": "2026-11-23",
    "error": null
   },
   {
    "id": "funding",
    "market": "crypto",
    "name": "BTC 資金調達率（7日平均）",
-   "status": "watch",
-   "value": "-0.0004%",
-   "summary": "先物が売りに偏っている（売られすぎ寄り）",
-   "asof": "2026-11-22",
+   "status": "neutral",
+   "value": "0.0002%",
+   "summary": "平常（年率換算 約0%）",
+   "asof": "2026-11-23",
    "error": null
   }
  ]
