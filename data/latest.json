@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T12:40:43.809091+09:00",
+ "generated": "2026-11-27T12:41:56.904582+09:00",
  "indicators": [
   {
    "id": "hy",
@@ -106,9 +106,9 @@
    "market": "jp",
    "name": "日経平均",
    "status": "caution",
-   "value": "57,887",
-   "summary": "200日線の下（乖離-7.1%）。中期は守り",
-   "asof": "2026-11-26",
+   "value": "58,172",
+   "summary": "200日線の下（乖離-6.7%）。中期は守り",
+   "asof": "2026-11-27",
    "error": null
   },
   {
@@ -116,9 +116,9 @@
    "market": "jp",
    "name": "TOPIX（ETF 1306）",
    "status": "caution",
-   "value": "397",
-   "summary": "200日線の下（乖離-2.7%）。中期は守り",
-   "asof": "2026-11-26",
+   "value": "401",
+   "summary": "200日線の下（乖離-1.7%）。中期は守り",
+   "asof": "2026-11-27",
    "error": null
   },
   {
@@ -126,9 +126,9 @@
    "market": "jp",
    "name": "ドル円",
    "status": "neutral",
-   "value": "159.20円",
+   "value": "159.24円",
    "summary": "13週で-0.1%",
-   "asof": "2026-11-26",
+   "asof": "2026-11-27",
    "error": null
   },
   {
@@ -136,9 +136,9 @@
    "market": "crypto",
    "name": "BTC / 200週移動平均",
    "status": "signal",
-   "value": "0.88倍（$60,612）",
+   "value": "0.90倍（$61,500）",
    "summary": "長期の割安圏",
-   "asof": "2026-11-26",
+   "asof": "2026-11-27",
    "error": null
   },
   {
@@ -148,7 +148,7 @@
    "status": "neutral",
    "value": "1.14",
    "summary": "中立圏（1〜3）",
-   "asof": "2026-11-25",
+   "asof": "2026-11-26",
    "error": null
   },
   {
@@ -156,9 +156,9 @@
    "market": "crypto",
    "name": "Crypto Fear & Greed",
    "status": "watch",
-   "value": "11",
+   "value": "12",
    "summary": "極度の恐怖。回復待ち",
-   "asof": "2026-11-26",
+   "asof": "2026-11-27",
    "error": null
   },
   {
@@ -167,8 +167,8 @@
    "name": "ステーブルコイン総額",
    "status": "caution",
    "value": "$282B",
-   "summary": "30日で-5.8%。資金が流出している",
-   "asof": "2026-11-26",
+   "summary": "30日で-5.9%。資金が流出している",
+   "asof": "2026-11-27",
    "error": null
   },
   {
@@ -176,9 +176,9 @@
    "market": "crypto",
    "name": "BTC 資金調達率（7日平均）",
    "status": "neutral",
-   "value": "0.0024%",
-   "summary": "平常（年率換算 約3%）",
-   "asof": "2026-11-26",
+   "value": "0.0021%",
+   "summary": "平常（年率換算 約2%）",
+   "asof": "2026-11-27",
    "error": null
   }
  ]
